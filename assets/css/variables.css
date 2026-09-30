@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+:root {
+	
+  --firstc:#CA295C;
+  --secondc:#E3793D;
+  --thirdc:#DB4C7A
+  --fourthc:#A71F4A;	
+	
+--gradient: linear-gradient(to left, #CA295C 0%, #E3793D 100%);	
+	
+  --white:#fff;
+  --gray-100:#f8f9fa;
+  --gray-200:#e9ecef;
+  --gray-300:#dee2e6;
+  --gray-400:#ced4da;
+  --gray-500:#adb5bd;
+  --gray-600:#6c757d;
+  --gray-700:#495057;
+  --gray-800:#343a40;	
+  --gray-900:#212529;
+  --black:#000;	
+	
+  --firstf: 'Montserrat', sans-serif;
+  --secondf: 'Anton', sans-serif;	
+	
+  /*--font-size--small: 1.4rem;*/           /* 14px */
+  /*--font-size--default: 1.6rem; */        /* 16px */
+  /*--font-size--large: 2.4rem;  */        /* 24px */
+}
+
+/*--------------------------------------------------------------
+FONTS
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100.200,300,400,500,600,700,800,900&display=sw');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');

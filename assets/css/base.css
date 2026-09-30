@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import "variables.css";
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea,
+p{
+  font-family: var(--firstf);
+  line-height: 1.5;	
+  font-size: 1.125rem; /* =18px */
+}
+
+
+
+/* Dashed black border */
+hr.dashed {
+  border-top: 1px dotted var(--gray-900);
+}
+
+.spam { display: none; }
+
+/* Links
+--------------------------------------------- */
+a {
+	color: var(--gray-900);
+}
+
+a:visited {
+	color: var(--gray-900);
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: var(--gray-900);
+	opacity: 0.7;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}

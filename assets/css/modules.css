@@ -1,0 +1,862 @@
+@charset "UTF-8";
+@import "variables.css";
+
+
+
+
+
+/*--------------------------------------------------------------
+MODULE PAGE DE GÉNÉRATEURS HARMONIE COULEURS
+--------------------------------------------------------------*/
+.module-page-generateur-harmonie-couleurs  {
+  background-color: var(--gray-100);
+}
+.module-page-generateur-harmonie-couleurs .module-couleurs {
+  padding: 2rem 0 2rem 0;
+}
+.module-couleurs .picker {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.module-couleurs .sous-t {
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.module-couleurs input[type=color] {
+  width: 100px;
+  height: 100px;
+}
+.module-couleurs .combinaisons {
+  padding: 12px;
+}
+.module-couleurs .combinaisons .cont {
+  margin-bottom: 2rem;
+}
+.module-couleurs .combinaisons .cont p span{
+  font-weight: 600;
+}
+.module-couleurs .combinaisons .cont .color-block {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+
+
+/*--------------------------------------------------------------
+MODULE BOUTONS ACCESSIBILITY
+--------------------------------------------------------------*/
+.accessibility-icons {
+	margin-left: 8px;
+}
+.accessibility-icons a{
+	display: inline-block;
+}
+.accessibility-icons img {
+	height: 20px;
+}
+/*.high-contrast, .high-contrast a {
+    background-color: black;
+    color: white;
+}*/
+.high-contrast, .high-contrast p, .high-contrast a , .high-contrast h1 , .high-contrast h2 , .high-contrast h3, .high-contrast h4, .high-contrast h5   {
+    font-weight: 700 !important;
+}
+/*--------------------------------------------------------------
+MODULE BANNIÈRE HOMEPAGE
+--------------------------------------------------------------*/
+.module-header-homepage {
+  background-image:url("../img/1.jpg");
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.module-header-autrespages  {
+  background-color: var(--white);
+}
+.module-banner .cta-banner { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;	
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  overflow: hidden;
+}
+.module-banner .cta-banner h1, h2 {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.module-banner .cta-banner .titre {
+	font-family: var(--firstf);
+    font-weight: 800;
+    font-size: 3.6rem;
+    color: #fff;	
+}
+.module-banner .cta-banner .sous-titre {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 12px;
+    margin: 0
+}
+
+/*--------------------------------------------------------------
+MMODULE SERVICES HOME PAGE
+--------------------------------------------------------------*/
+/*(HAUT)*/
+.module-services-homepage {
+  background: linear-gradient(to left, #CA295C 0%, #E3793D 100%);
+  width: 100%;
+  text-align: center;
+  min-height: 380px;
+  padding-top: 3rem;
+  /*margin-bottom: 5rem;*/
+}
+.module-services-homepage a{
+  text-decoration: none;
+}
+.module-services-homepage .row {
+  margin-bottom: 2rem;
+}
+.module-services-homepage .service-box {
+  text-align: center;
+}
+.module-services-homepage .service-box h3 {
+  color: white;
+  outline: 0;	
+  font-size: 18px;
+  padding: 0;
+  margin: 0px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.module-services-homepage .service-box p {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 0;
+}
+/*(BAS)*/
+.module-rose-grand-mot {
+  background-color: transparent;
+  background-image: url("/wp-content/themes/webcolours/assets/img/large-word.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 162%;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+  margin-top: 3rem;
+}
+
+/*--------------------------------------------------------------
+MODULE INTRO HOMEPAGE
+--------------------------------------------------------------*/
+.module-intro-homepage{
+  padding: 3rem 0;
+  background-color: var(--gray-100);
+}	
+.module-intro-homepage .intro-accueil {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.module-intro-homepage .gauche {
+  width: 40%;
+  margin-right: 4rem;
+}
+.module-intro-homepage .droite {
+  width: 60%;
+}	
+.module-intro-homepage h4{
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 10px;	
+}	
+.module-intro-homepage p {
+  font-size: 14px;
+  line-height: 1.4;
+}	
+.module-intro-homepage a {
+  text-decoration: underline;
+  font-size: 12.9px;
+} 
+/*--------------------------------------------------------------
+MODULE PORTFOLIO HOMEPAGE
+--------------------------------------------------------------*/
+.module-portfolio-homepage{
+  background-color: #FAFAFA;
+  padding: 2rem 0 5rem 0;
+}	
+.module-portfolio-homepage .separation-titre{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-left: -10px;
+  margin-right: -10px; 
+}	
+.module-portfolio-homepage .card{
+  padding: 4px;
+  border:1px solid #EBEBEB;
+  background-color: #fff;
+}
+.module-portfolio-homepage .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 2;  
+}
+.module-portfolio-homepage .thumb{
+  height: 260px;
+  overflow: hidden;
+  margin: 0;
+  background-color: #fff;
+}
+.module-portfolio-homepage a img{
+  display: block;
+  margin: 0 auto;
+  width:110% !important;
+  height:110% !important;
+  object-fit:cover !important;
+}	
+
+
+/*--------------------------------------------------------------
+MODULE SITE PERSONNALISÉ HOMEPAGE
+--------------------------------------------------------------*/
+.module-siteperso-homepage{
+  background-image: url("/wp-content/themes/webcolours/assets/img/services-conception-et-programmation-web-montreal.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  text-align: center;
+  height: 720px;
+  background-size: 800px;
+  padding-top: 3rem;
+}	
+.module-siteperso-homepage h4 {
+  margin:0;
+  padding:0;
+}
+.module-siteperso-homepage p {
+  
+  margin:0;
+}	
+/*--------------------------------------------------------------
+MODULE CERCLE DE LA FORCE CRÉATRICE HOMEPAGE
+--------------------------------------------------------------*/
+.module-cercle-creatif{
+  background-color: var(--gray-100);
+  width: 100%;
+  text-align: center;
+  padding: 4rem;
+}
+
+.module-cercle-creatif img{
+  width: 320px;
+  -webkit-animation:spin 60s linear infinite;
+  -moz-animation:spin 60s linear infinite;
+  animation:spin 60s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
+.module-cercle-creatif a{
+  border-radius: 50px;
+  border: 1px solid var(--gray-500);
+  background-color: var(--white);
+  color: var(--fourthc);
+  font-size: 12px;
+}
+
+.module-cercle-creatif p{
+  font-size: 12px;
+  color: var(--gray-800);
+}
+
+/*--------------------------------------------------------------
+MODULE À PROPOS
+--------------------------------------------------------------*/
+.module-about-banner {
+  background-image: url("/wp-content/themes/webcolours/assets/img/about-webcolours-agence-web-creative.png");
+  background-repeat: no-repeat;
+  background-color: #091531;
+  /*background-color:#0A0E1D;*/
+  background-position: top;
+  background-size: 1200px;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}	
+.module-about-banner .cta-banner { 
+      color: white;
+}	  
+.module-about-banner .cta-banner h1 {
+    padding: 0;
+    margin: 0;
+}
+.module-about-banner .cta-banner .titre2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1;
+}	  
+.module-about-banner .cta-banner .titre {
+    font-weight: 800;
+    font-size: 2rem;
+}
+.module-about-banner .cta-banner p {
+    color: #fff;
+}		
+.module-about .module-collabo {
+   padding:3rem 0;
+}
+.module-about .module-collabo h2{
+  color: #CA295C;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.module-about .module-collabo .soust{
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.module-about .module-collabo span{
+  font-weight: 400;
+}
+.module-about .module-collabo p {
+  font-size: 12.9px;
+}
+
+.module-about .module-collabo a.lien-externe {
+  font-size: 12.9px;
+}		      
+
+
+/*--------------------------------------------------------------
+MODULE SERVICES PAGE
+--------------------------------------------------------------*/
+.module-services-banner {
+  background-image: url("/wp-content/themes/webcolours/assets/img/webcolours-des-services-creatifs-et-innovants.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  background-color: #ECECEC;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.module-services-banner .mots-animes {	
+	font-size: 3rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 1;
+	text-align: center;
+	color:#fff;
+}	
+.module-services-banner .item {
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;	
+}
+
+
+.module-services{
+    padding:3rem 0;
+	background-color: var(--gray-100);
+}	
+.module-services .service-box{
+text-align: center;
+}	
+.module-services h2 {
+	font-size: 17px;
+	padding: 0;
+	margin: 0px;
+	font-weight: 600;
+	text-transform: uppercase;
+}		
+.module-services p {
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+}		
+.module-services-details{
+	background-color: var(--white);
+	padding: 1rem;
+	border-radius: 3px;
+	border: 1px solid #E2E2E2;
+	margin: 3rem 1rem 2rem 1rem;
+	text-align: center;
+}	
+	.module-services-details p {
+	font-size: 12px;
+	font-weight: 400;
+} 
+	.module-services-details span {
+	font-weight: 600;
+}
+
+	
+
+/*CTA WAVES*/
+.module-cta-wave {
+    width: 50%; 
+    -webkit-box-shadow: 0px 2px 26px 0px rgba(156,156,156,1);
+    -moz-box-shadow: 0px 2px 26px 0px rgba(156,156,156,1);
+    box-shadow: 0px 2px 26px 0px rgba(156,156,156,1);
+	border-radius: 3px;
+	margin: auto;
+}
+
+.module-cta-wave .cont{
+    background-image: url("/wp-content/themes/webcolours/assets/img/webcolours-cta-wave-desing.jpg");
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      height: 170px;
+	  padding: 0.5rem 2rem;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+  }
+.module-cta-wave .cont .contenu{
+	  text-align: center;
+  }
+
+.module-cta-wave .cont .contenu h3{  
+      color:var(--white);
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 1;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+    }	
+
+.module-cta-wave .cont .contenu a {
+	  color: var(--firstc);
+      background-color: var(--white);
+      border-color: var(--white);
+      border-radius: 50px ;
+      display:inline-block;
+      cursor:pointer;
+      font-family:Arial;
+      font-size:11px;
+      padding:8px 14px;
+      text-decoration:none;
+	  font-weight: 600;
+	  margin-top: 12px;
+}
+.module-cta-wave .cont .contenu{
+        color:var(--white);
+        font-size: 16px;
+}
+.module-cta-wave .baseline{
+	    text-align: center;
+}
+
+/*--------------------------------------------------------------
+MODULE PORTFOLIO PAGE
+--------------------------------------------------------------*/
+.module-portfolio-banner {
+  background-image: url("/wp-content/themes/webcolours/assets/img/webcolours-portfolio-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  overflow: hidden;
+  background-color: #fafafa;	
+}		
+.module-portfolio-banner .cta-banner { 
+    color: var(--white);  
+}	
+	
+.module-portfolio{
+   padding:3.4rem 0;	
+}	
+[class*='col-'] {
+    padding-right: 0 !important; 
+}	
+.module-portfolio .card{
+  padding: 4px;
+  border:1px solid #EBEBEB;
+  background-color: #fff;
+}	  
+.module-portfolio .card :hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 2;  
+}
+.module-portfolio .thumb{
+  height: 260px;
+  overflow: hidden;
+  margin: 0;
+  background-color: #fff;
+}
+.module-portfolio a img{
+  display: block;
+  margin: 0 auto;
+  width:110% !important;
+  height:110% !important;
+  object-fit:cover !important;
+}	
+
+/*--------------------------------------------------------------
+MODULE PAGE PORTFOLIO SINGLE
+--------------------------------------------------------------*/
+.module-single-portfolio-banner {
+	background-color: var(--gray-100);
+    padding: 8px;
+}	
+.module-single-portfolio-banner h1 {
+    font-size: 15px;
+    margin: 0 12px;
+    color: var(--gray-600);
+    font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.module-single-portfolio-banner h1 span{
+	font-size: 18px;
+    font-weight: 900;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+.module-single-portfolio{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.module-single-portfolio .contenu {
+    font-size: 12.9px;
+}
+.module-taxonomie{
+  margin: 2rem 0 2rem 0;
+  background-color: var(--gray-100);
+}  	  
+.module-taxonomie .cpt-taxonomie {
+  padding: 0.6rem;	 
+ }
+.module-taxonomie a {
+    background-color:var(--white);
+    border:1px solid gray;
+    color: var(--gray-600);
+    border-radius: 50px ;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:10px;
+    padding:8px 14px;
+    text-decoration:none;
+}
+
+.module-single-portfolio .arrowLeft a {
+  position: fixed;
+  z-index: 100;
+  left: -5px;
+  top: 45%;
+  padding: 6px 12px 12px 12px;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+.module-single-portfolio .arrowLeft a:hover {
+  left: 0;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in;
+  color: #fff;
+}
+.module-single-portfolio .arrowRight a {
+  position: fixed;
+  z-index: 100;
+  right: -5px;
+  top: 45%;
+  padding: 6px 12px 12px 12px;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+.module-single-portfolio .arrowRight a:hover {
+  right: 0;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in;
+  color: #fff;
+}
+.module-single-portfolio .arrowNav a {
+  background: var(--gray-700);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 30px;
+}		
+	
+/*--------------------------------------------------------------
+MODULE PAGE CONTACT
+--------------------------------------------------------------*/
+.module-contact-banner {
+  background-image: url("/wp-content/themes/webcolours/assets/img/webcolours-creative-agency-montreal.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 400px;
+  background-color: #d1d1d1;
+  overflow: hidden;
+}	
+.module-contact{
+  padding:4rem 0;
+}		
+.module-contact h1{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+}
+.module-contact p span{
+  font-weight: 700;
+}
+.module-contact h2{
+  margin: 20px 0 12px 0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+MODULE PAGE 404
+--------------------------------------------------------------*/
+.module-404-banner {
+  background-image: url("/wp-content/themes/webcolours/assets/img/webcolours-404-error.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 400px;
+  background-color: #d1d1d1;
+  overflow: hidden;
+}	
+.module-404-banner .cta-banner { 
+  color: white;
+  text-align: left;
+}	
+.module-404-banner h1 h2 {
+  padding: 0;
+  margin: 0;
+}
+.module-404-banner .titre {
+  font-weight: 800;
+  font-size: 5.3rem;
+}
+.module-404-banner .sous-titre {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.module-404-banner p {
+  color: #fff;
+}		  
+.module-404{
+  padding: 4rem 0;
+}
+.module-404 h1{
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.module-404 p{
+  font-size: 16px;
+}
+.site-content{
+  padding: 0;
+}
+
+
+/*--------------------------------------------------------------
+CAROUSEL
+--------------------------------------------------------------*/
+.module-carousel{
+  background: var(--gray-200);
+  padding-bottom: 2rem;
+}
+#ourclients {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:30px;
+  height:150px;
+}
+#ourclients .clients-wrap {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#ourclients .clients-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ourclients .clients-wrap ul li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 220px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+#ourclients .clients-wrap ul li img {
+  vertical-align: middle;
+  max-width: 100%;
+  width:150px;
+  max-height: 100%;
+  -webkit-transition: 0 linear left;
+  -moz-transition: 0 linear left;
+  transition: 0 linear left;
+}
+#ourclients h3{
+  word-spacing: 30px;
+  padding: 20px 0 10px 0;
+  border-bottom:1px solid var(--gray-800);
+  width:150px;	
+}
+/*--------------------------------------------------------------
+MODULE CALL-TO-ACTION COLOURS GRADIENT
+--------------------------------------------------------------*/
+.module-cta-colours-gradient{
+  background: var(--gradient);
+  height: 290px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.module-cta-colours-gradient a.btn{
+  border-radius: 50px;
+  border: 1px solid var(--white);
+  color: var(--white);
+  background-color: transparent;
+}
+.module-cta-colours-gradient .row{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.module-cta-colours-gradient h4{
+	font-size: 68px;
+	text-align:center;
+	font-weight: 800;
+	margin: 0;
+	padding: 0;
+    background: linear-gradient(to left, #fff 10%, #FDE7EE 30%, #FDE7EE 20%, #fff 10%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 6s linear infinite;
+}
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }	
+.module-cta-colours-gradient p{
+	color:#fff;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+FOOTER
+--------------------------------------------------------------*/
+
+.module-footer{
+  background-color: var(--gray-400);
+  height: auto;
+  padding: 1.2rem 0;
+  width: 100%;
+  text-align: center;
+}
+.module-footer p{
+  color: var(--gray-700);
+  font-size: 12px;
+  margin: 0;
+}
+
+
+
+/*INFO BASELINE*/
+.info-baseline{
+  background-color: var(--gray-800);
+}
+.info-baseline .contenu{
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  text-align: center;
+}
+.info-baseline .contenu p{
+  color: var(--white);
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+.info-baseline .contenu p a{
+  color: var(--white);
+  font-size: 12px;
+  text-decoration: underline;
+}
+.info-baseline .contenu p a:hover{
+  opacity: 0.7;
+}
+.info-baseline .contenu img{
+  width: 30px;
+  margin: 0 6px;
+}
+.info-baseline .contenu img:hover{
+  opacity: 0.7;
+}
+
+
+
+
+
